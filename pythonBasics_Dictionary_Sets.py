@@ -35,13 +35,18 @@
 # # # ------------------------------------------------------------------------------------------------------------------
 
 # SETS in Python are mutable but their elements should be immutable.
-customEmptySet=set() # empty set creation
-print(type(customEmptySet)) # check type of customEmptySet
-print(customEmptySet) # empty set print
+# customEmptySet=set() # empty set creation
+# print(type(customEmptySet)) # check type of customEmptySet
+# print(customEmptySet) # empty set print
 
-nonEmptySet={1,2,3,5,6,3,3,3,3,3,3,"soa","soa"}
-print("set output: ",nonEmptySet) # non empty set print, stores onky unique value
+# nonEmptySet={1,2,3,5,6,3,3,3,3,3,3,"soa","soa"}
+# print("set output: ",nonEmptySet) # non empty set print, stores onky unique value
 
+# Intersection and union
+set1={1,2,3,4}
+set2={3,4,5,6}
+print(set1.intersection(set2)) # intersection of two sets
+print(set1.union(set2)) # union of two sets
 
 
 
