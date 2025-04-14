@@ -45,8 +45,10 @@ class School:
     stud_name="Anonymous"      
     def __init__(self,stud_name):
         self.stud_name=stud_name
-
+    def demoFunction(self):
+        print("This is a demo function inside class, Namaste",self.stud_name)
 stud1=School("Sarthak")
+stud1.demoFunction()
 print(stud1.stud_name)
 print(stud1.school_name) 
 print(School.school_name)
